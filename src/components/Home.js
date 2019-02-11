@@ -2,7 +2,7 @@ import React from "react";
 import Axios from "axios";
 import Pokeball from "../pokeball.png";
 
-export class Home extends React.Component {
+class Home extends React.Component {
   state = {
     posts: []
   };
@@ -38,3 +38,5 @@ export class Home extends React.Component {
     );
   }
 }
+
+export default Home;
