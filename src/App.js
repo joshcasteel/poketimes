@@ -25,3 +25,6 @@ class App extends Component {
 }
 
 export default App;
+
+const arr = ["text", "more-text"];
+arr.push("even-more-text");
